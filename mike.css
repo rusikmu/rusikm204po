@@ -1,0 +1,40 @@
+body {height: 100vh;
+    background-image: url(cars.jpg);
+    margin: 0;
+    z-index: -1;
+    background-size: cover;
+  
+  
+    }
+body::before{
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-size: cover;
+        backdrop-filter: blur(10px);
+        z-index: -1;
+    }
+
+header{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    border: 5px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.asd{
+    display: flex;
+    justify-content: center;
+}
+.nav__item{
+    margin: 0 30px;
+    text-decoration-line: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
